@@ -5,14 +5,9 @@ export const MainPageApp = () => {
   return (
     <>
 
-    {/*NavVar*/}
-
     <NavVar/>
         
     <h1>Hola Mundo</h1>
-
-
-
 
     {/*Footer*/}
 

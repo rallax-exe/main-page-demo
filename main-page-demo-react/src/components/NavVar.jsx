@@ -2,6 +2,16 @@
 
 export const NavVar = () => {
   return (
-    <h2>NavVar</h2>
+    <header>
+      <section className="wrapper">
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>    
   )
 }
