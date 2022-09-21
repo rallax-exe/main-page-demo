@@ -7,7 +7,7 @@ export const MainPageApp = () => {
 
     <NavVar/>
         
-    <h1>Hola Mundo</h1>
+    <h1>Make Remote Work</h1>
 
     {/*Footer*/}
 
