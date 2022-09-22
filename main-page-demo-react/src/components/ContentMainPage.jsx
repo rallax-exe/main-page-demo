@@ -1,4 +1,9 @@
 import imgMain from '../images/image-hero-desktop.png';
+import imgDatabiz from '../images/client-databiz.svg';
+import imgAudiophile from '../images/client-audiophile.svg';
+import imgMeet from '../images/client-meet.svg';
+import imgMaker from '../images/client-maker.svg';
+
 
 export const ContentMainPage = () => {
     return (
@@ -9,13 +14,20 @@ export const ContentMainPage = () => {
                 <div className="main-page-text">
                     <span>
                         Get your team in sync, no matter your location. 
-                        <br /> Streamline processes, create team rituals, 
-                        <br /> and watch productivity soar.
+                        <br /> Streamline processes, create team rituals, and
+                        <br /> watch productivity soar.
                     </span>
                 </div>
                 
                 <div>
                     <button className="main-page-btn-learn-more">Learn more</button>  
+                </div>
+
+                <div>
+                    <img className="main-page-client-logo" src={ imgDatabiz } alt="Databiz" />
+                    <img className="main-page-client-logo" src={ imgAudiophile } alt="Audiophile" />
+                    <img className="main-page-client-logo" src={ imgMeet } alt="Meet" />
+                    <img className="main-page-client-logo" src={ imgMaker } alt="Maker" />
                 </div>
 
             </div>            
@@ -24,3 +36,4 @@ export const ContentMainPage = () => {
         </div>
     )
 }
+

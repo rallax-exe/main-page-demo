@@ -8,7 +8,7 @@ export const NavVar = () => (
 
   <>
 
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light" id="main-navbar">
       <div className="container-fluid">
 
         <a className="navbar-brand" href="#">
@@ -29,10 +29,10 @@ export const NavVar = () => (
                 Features
               </a>
                 <ul className="dropdown-menu">
-                      <li><a className="dropdown-item" href="#"><img src={iconTodo} />Todo List</a></li>
-                      <li><a className="dropdown-item" href="#"><img src={iconCalendar} />Calendar</a></li>
-                      <li><a className="dropdown-item" href="#"><img src={iconReminders} />Reminders</a></li>
-                      <li><a className="dropdown-item" href="#"><img src={iconPlanning} />Planning</a></li>
+                      <li><a className="dropdown-item" href="#"><img src={iconTodo} className="item-dropdown-menu"/>Todo List</a></li>
+                      <li><a className="dropdown-item" href="#"><img src={iconCalendar}  className="item-dropdown-menu" />Calendar</a></li>
+                      <li><a className="dropdown-item" href="#"><img src={iconReminders} className="item-dropdown-menu" />Reminders</a></li>
+                      <li><a className="dropdown-item" href="#"><img src={iconPlanning} className="item-dropdown-menu" />Planning</a></li>
                 </ul>
             </li>
 
