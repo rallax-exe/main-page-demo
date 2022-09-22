@@ -40,12 +40,95 @@
     padding-top: 40%;
     font-size: 500%;
     font-weight: 700;
+    
 
   }
 
   .main-page-text {
 
     color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10%;
+
+  }
+
+  #nav-item-register {
+
+    display: block;
+    
+    background-color: white;
+    border-radius: 15px;
+    border: 1px;
+    border-color:hsl(0, 0%, 41%);
+    border-style: solid;
+    padding: 5px 30px;
+
+  }
+
+  #nav-item-register:hover {
+
+    display: block;
+    
+    background-color: white;
+    border-radius: 15px;
+    border: 2px;
+    border-color:hsl(0, 0%, 8%);
+    border-style: solid;
+    padding: 5px 30px;
+    
+
+  }
+
+  #nav-item-standard {
+    padding-left: 15px;
+    padding-right:15px;
+  }
+
+  #nav-item-button {
+    padding-left: 15px;
+    padding-right: 50px;
+  }
+
+  #logo-nav {
+
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 5px;
+
+  }
+
+  .main-page-btn-learn-more{
+
+    display: block;
+    
+    background-color: hsl(0, 0%, 8%) ;
+    border-radius: 15px;
+    border: 1px;
+    border-color:hsl(0, 0%, 41%);
+    border-style: solid;
+    padding: 5px 30px;
+    color: hsl(0, 0%, 98%);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+  }
+
+
+  .main-page-btn-learn-more:hover {
+
+    display: block;
+    
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px;
+    border-color:hsl(0, 0%, 41%);
+    border-style: solid;
+    padding: 5px 30px;
+    color: hsl(0, 0%, 8%);
     font-weight: 500;
     font-size: 18px;
 

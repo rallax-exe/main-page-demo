@@ -13,7 +13,7 @@ export const NavVar = () => (
 
         <a className="navbar-brand" href="#">
           <img
-            src={logo} alt="SNAP"
+            src={logo} alt="SNAP" id="logo-nav"
           />
         </a>
 
@@ -22,9 +22,9 @@ export const NavVar = () => (
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav w-100">
 
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" id="nav-item-standard">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Features
               </a>
@@ -36,7 +36,7 @@ export const NavVar = () => (
                 </ul>
             </li>
 
-            <li className="nav-item dropdown">
+            <li className="nav-item dropdown" id="nav-item-standard">
                       <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Company
                       </a>
@@ -47,19 +47,22 @@ export const NavVar = () => (
                       </ul>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item" id="nav-item-standard">
               <a className="nav-link" href="#">Careers</a>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item  flex-fill" id="nav-item-standard">
               <a className="nav-link" href="#">About</a>
             </li>
 
+            <li className="nav-item" id="nav-item-standard">
+              <a className="nav-link" href="#">Login</a>
+            </li>
 
-            <form className="container-fluid justify-content-start">
-                <button className="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-                <button className="btn btn-outline-success me-2" type="button">Main button</button>
-            </form>
+            <li className="nav-item" id="nav-item-button">
+              <a className="nav-link" id="nav-item-register"  href="#">Register</a>
+            </li>
+
 
 
 
