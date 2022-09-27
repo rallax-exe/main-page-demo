@@ -289,6 +289,39 @@
   
     }
 
+    #nav-item-register {
+
+    
+      text-align: center;
+      background-color: hsl(0, 0%, 98%);
+      border-radius: 15px;
+      border: 1px;
+      border-color:hsl(0, 0%, 41%);
+      border-style: solid;
+      padding: 5px 30px;
+  
+    }
+  
+    #nav-item-register:hover {
+  
+      display: block;
+      
+      background-color:  hsl(0, 0%, 98%);
+      border-radius: 15px;
+      border: 2px;
+      border-color:hsl(0, 0%, 8%);
+      border-style: solid;
+      padding: 5px 30px;
+      
+  
+    }
+
+    #nav-item-login{
+
+      text-align: center;
+
+    }
+
 
 
   }

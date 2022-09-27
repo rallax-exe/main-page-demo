@@ -17,6 +17,7 @@ export const NavVar = () => (
           />
         </a>
 
+        
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -56,7 +57,7 @@ export const NavVar = () => (
             </li>
 
             <li className="nav-item" id="nav-item-standard">
-              <a className="nav-link" href="#">Login</a>
+              <a className="nav-link" id="nav-item-login" href="#">Login</a>
             </li>
 
             <li className="nav-item" id="nav-item-button">

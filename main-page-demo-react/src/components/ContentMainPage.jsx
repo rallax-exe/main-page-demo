@@ -8,21 +8,22 @@ import imgMaker from '../images/client-maker.svg';
 
 export const ContentMainPage = () => {
     return (
-        <div className="main-page-hero">
+        <>
+            <div className="main-page-hero">
 
-            <div className="main-page-img-container" id="check-mobile">
-                <img className="main-page-img-mobile" src={imgMobile} alt="hero-sktop" />
-            </div>
+                <div className="main-page-img-container" id="check-mobile">
+                    <img className="main-page-img-mobile" src={imgMobile} alt="hero-sktop" />
+                </div>
 
-            <div className="main-page-hero-children">
-                
+                <div className="main-page-hero-children">
+
                     <h1 className="main-page-h1">Make remote work</h1>
 
                     <div className="main-page-text">
                         <span>
                             Get your team in sync, no matter your location.
-                             Streamline processes, create team rituals, and
-                             watch productivity soar.
+                            Streamline processes, create team rituals, and
+                            watch productivity soar.
                         </span>
                     </div>
 
@@ -37,14 +38,15 @@ export const ContentMainPage = () => {
                         <img className="main-page-client-logo" src={imgMaker} alt="Maker" />
                     </div>
 
-                
-            </div>
 
-            <div className="main-page-img-container" id="check-desktop">
-                <img className="main-page-img" src={imgMain} alt="hero-desktop" />
+                </div>
+
+                <div className="main-page-img-container" id="check-desktop">
+                    <img className="main-page-img" src={imgMain} alt="hero-desktop" />
+                </div>
+
             </div>
-            
-        </div>
+        </>
     )
 }
 
